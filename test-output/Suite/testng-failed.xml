@@ -6,20 +6,13 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="appurl" value="http://www.facebook.com"/>
     <classes>
-      <class name="script.DemoTest3">
+      <class name="script.DemoTest">
         <methods>
           <include name="postCondition"/>
           <include name="demoTest1"/>
           <include name="preCondition"/>
         </methods>
-      </class> <!-- script.DemoTest3 -->
-      <class name="script.DemoTest2">
-        <methods>
-          <include name="postCondition"/>
-          <include name="demoTest1"/>
-          <include name="preCondition"/>
-        </methods>
-      </class> <!-- script.DemoTest2 -->
+      </class> <!-- script.DemoTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
